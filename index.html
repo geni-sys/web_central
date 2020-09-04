@@ -1,52 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/GlobalStyles.css" />
-    <title>GENESIS SYSTEM</title>
-  </head>
 
-  <body>
-    <div id="page">
-      <header>
-        <h1>Online Teaching</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/GlobalStyles.css" />
+  <link rel="stylesheet" href="./styles/Article.css" />
+  <title>GENESIS SYSTEM</title>
+</head>
 
-      <main>
-        <div id="tabs">
-          <div class="tab-links">
-            <button data-id="prepare" data-open>Prepare</button>
-            <button data-id="produce">Produce</button>
-            <button data-id="delivery">Delivery</button>
-          </div>
+<body>
+  <div id="page">
+    <header>
+      <h1>Genesis System</h1>
+    </header>
 
-          <div class="tab-content">
-            <section id="prepare">
-              <h2>How to prepare content?</h2>
-              <p>Need a lot of research and organizing ideas</p>
-            </section>
+    <div class="top-group">
+      <div id="logo">
+        <img src="https://cdn.pixabay.com/photo/2015/11/16/16/41/web-1045994_960_720.jpg" alt="Genesis system - logo">
+      </div>
 
-            <section id="produce">
-              <h2>How to produce</h2>
-              <p>Develop your idea and record it.</p>
-              <p>
-                To record you will need: Sound, Camera, Light and a Computer
-              </p>
-            </section>
-
-            <section id="delivery">
-              <h2>How to delivery</h2>
-              <p>
-                You can choose any digital media like: YouTube, Twitch or
-                Instagram.
-              </p>
-            </section>
-          </div>
-        </div>
-      </main>
+      <div class="about-information">
+        <ul style="list-style-type: none;">
+          <li style="line-height: 24px;">Nossa empresa Genesis System foi fundada em 09/02/2020</li>
+          <li style="line-height: 24px;">Por Elias Garcia Alexandre como CEO, Gabriel rodrigues de castro como CIO,</li>
+          <li style="line-height: 24px;">
+            no UNASP-HT São Paulo, tendo o objetivo de desenvolver aplicações para internet,
+            e outras aplicações que possam ser integradas ou acesadas via internet. (APIs)
+          </li>
+        </ul>
+      </div>
     </div>
 
-    <script src="./src/index.js"></script>
-  </body>
+    <main>
+      <div id="tabs">
+        <div class="tab-links">
+          <button data-id="prepare" data-open>Missão</button>
+          <button data-id="produce">Visão</button>
+          <button data-id="delivery">Valores</button>
+        </div>
+
+        <div class="tab-content">
+          <section id="prepare">
+            <h2>Nossa Missão é?</h2>
+            <p>
+              Connectar os desenvolvedores em todo o globo, e levar o conhecimento tecnico dos mesmo para o próximo
+              nível.
+            </p>
+
+            <br />
+            <h3>Bagagem ?</h3>
+            <p>Apresentar para as empresas tecnicos copetentes para o mercado.</p>
+          </section>
+
+          <section id="produce">
+            <p>
+              Produzir sistemas de alta qualidade para atender o mercado tecnológico de forma mais eficiente possível.
+            </p>
+          </section>
+
+          <section id="delivery">
+            <ul>
+              <li style="line-height: 24px;">Inovação</li>
+              <li style="line-height: 24px;">Integridade e Honestidade.</li>
+              <li style="line-height: 24px;">Dedicação para os nossos clientes e parceiros.</li>
+              <li style="line-height: 24px;">
+                Comprometimento, fidelidade com os produtos oferecidos,
+                assumir total responsabilidade
+                das transações declaradas.
+              </li>
+            </ul>
+
+            <br />
+            <h3>Base dos nossos valores:</h3>
+            <p style="margin-left: 5px; line-height: 24px;">
+              Nossa equipe considera esses valores um diferencial para o mercado porque, o cliente bem recebido, tratado
+              com educação e respeito, e que tenha o produto entregue pontualmente, fica satisfeito, volta mais vezes, e
+              ainda indica mais clientes para nossa empresa.
+              Buscamos constantemente melhorar os nossos valores oferecendo capacitação profissional, acompanhando e
+              treinando sempre os nossos colaboradores e deixando claro os nossos valores aos colaboradores, clientes e
+              fornecedores.
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <article class="bottom-group">
+      <div class="ceo">
+        <img src="https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_960_720.jpg" alt="sliders">
+      </div>
+    </article>
+  </div>
+
+  <script src="./src/index.js"></script>
+</body>
+
 </html>

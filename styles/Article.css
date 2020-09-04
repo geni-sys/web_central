@@ -1,0 +1,27 @@
+div.top-group {
+  margin: 0 auto;
+  width: 700px;
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 100px;
+  /* border: 1px solid #d3d3d3; */
+}
+
+div div#logo {
+  border-right: 2px solid var(--primary);
+  padding-right: 10px;
+  margin-right: 30px;
+}
+
+div div#logo img {
+  width: 200px;
+  height: 200px;
+}
+
+div div.about-information {
+  width: 500px;
+}
+
+/* --------------------------- */
