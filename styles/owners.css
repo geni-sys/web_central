@@ -1,0 +1,47 @@
+img#owners {
+  max-width: 300px;
+  border-radius: 2%;
+}
+
+h5 span {
+  line-height: 20px;
+}
+
+article.owner-group {
+  margin: 50px;
+}
+
+article.owner-group div#center_group {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+div#text-group {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 800px;
+}
+
+div#center_group div#ceo {
+  border-right: 2px solid var(--primary);
+  margin-right: 40px;
+}
+
+div#center_group div.owner h1 {
+  line-height: 54px;
+}
+div#center_group div.owner h4 {
+  line-height: 29px;
+}
+
+ul#description-group {
+  padding-left: 15px;
+}
+
+ul#description-group li {
+  font-size: 14px;
+  color: #dedede;
+}

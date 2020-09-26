@@ -13,10 +13,14 @@
   box-sizing: border-box;
 }
 
+#page {
+  overflow-x: hidden;
+}
+
 *,
 button,
 input {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -37,12 +41,13 @@ header {
 main {
   margin: 0 auto;
   max-width: 700px;
-  width: 700px;
+  width: 800px;
   min-width: 320px;
   margin-bottom: 32px;
 }
 
 .tab-links {
+  text-align: center;
   margin-bottom: 32px;
 }
 
@@ -62,7 +67,6 @@ button {
   position: relative;
 }
 
-
 button::after {
   position: absolute;
   bottom: 0;
@@ -74,7 +78,7 @@ button::after {
 
   background-color: var(--primary);
 
-  transition: .4s;
+  transition: 0.4s;
 }
 
 button:hover::after,
@@ -82,7 +86,7 @@ button.active::after {
   width: 100%;
 }
 
-.tab-content>section {
+.tab-content > section {
   animation: up 1s;
 }
 
