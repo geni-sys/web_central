@@ -3,7 +3,14 @@
 :root {
   --black: #130f0d;
   --primary: #fd951f;
+  --support: #6a737d;
   --white: #f0f0f9;
+  --link: #5d80d6;
+  --url: maroon;
+  --force: #ebf3ff;
+  --new: #2ea44f;
+  --discord: #6e86d6;
+  --reports: #4764f1;
 }
 
 * {
@@ -11,6 +18,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 #page {
