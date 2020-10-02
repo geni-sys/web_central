@@ -1,22 +1,32 @@
-article.application-group div#app-center {
+article.application-group {
+  max-width: 800px;
+  margin: 10px auto;
+}
+div#app-center {
   display: flex;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 0;
+}
+div#app-center div.application {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
 }
 
 @media (max-width: 1000px) {
   article.application-group div#app-center {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    width: 500px;
-    overflow: hidden;
+    overflow: auto;
+    white-space: nowrap;
   }
 
   div#app-center div.application {
     display: flex;
     flex-direction: column;
+  }
+
+  div#app-center div.application strong {
+    text-align: center;
   }
 }
 
@@ -59,7 +69,7 @@ div.application strong a:hover {
 div#text-group {
   margin: 0 auto;
   padding-top: 15px;
-  width: 800px;
+  max-width: 800px;
 }
 @media (max-width: 680px) {
   h3 {
