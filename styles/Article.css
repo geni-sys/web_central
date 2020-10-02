@@ -8,6 +8,24 @@ div.top-group {
   margin-bottom: 100px;
   /* border: 1px solid #d3d3d3; */
 }
+@media (max-width: 680px) {
+  div.top-group {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  div div#logo {
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    border-right: 0 !important;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  main div#tabs {
+    padding: 15px;
+  }
+}
 
 div div#logo {
   border-right: 2px solid var(--primary);

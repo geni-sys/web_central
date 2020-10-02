@@ -17,6 +17,20 @@ article.owner-group div#center_group {
   margin: 0 auto;
   margin-top: 30px;
 }
+@media (max-width: 680px) {
+  article.owner-group div#center_group {
+    flex-direction: column;
+    max-width: 600px;
+    position: relative;
+  }
+
+  div#center_group div#ceo {
+    border-right: 0 !important;
+    border-bottom: 2px solid var(--primary);
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+  }
+}
 
 div#text-group.separate {
   border-top: 1px solid rgba(255, 255, 255, 0.2);
